@@ -42,7 +42,7 @@ jobs:
         environment-url: 'https://org72db9f12.crm8.dynamics.com/'
         user-name: 'Akhilsankar@ZoximaSolution710.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
-        solution-name:  solmove
+        solution-name: solmove
         managed: true
         solution-output-file: out/ship/ALMLab.zip
 
