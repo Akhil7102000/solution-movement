@@ -24,7 +24,7 @@ jobs:
       with:
         solution-folder: solutions/ALMLab
         solution-file: out/solutions/ALMLab.zip
-        solution-type: Unmanaged
+        solution-type: Managed
 
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
